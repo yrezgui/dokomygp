@@ -5,7 +5,9 @@ var sass        = require('gulp-ruby-sass');
 
 gulp.task('script', function() {
   gulp.src('src/scripts/main.js')
-      .pipe(browserify({transform: 'reactify'}))
+      .pipe(browserify({
+        transform: 'reactify'
+      }))
       .pipe(concat('main.js'))
       .pipe(gulp.dest('dist/js'));
 });
