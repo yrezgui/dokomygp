@@ -1,37 +1,41 @@
+@import "utils";
+@import "colors";
+@import "animations";
+
 #main {
   height: 100%;
 }
 
 section[role="region"] > header:first-child {
-  background-color: #D62127;
-}
-
-.vertical-center {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.text-center {
-  text-align: center;
+  background-color: $background-app-color;
 }
 
 section .home-page {
-  color: #fff;
+  color: $background-content-color;
 
   & > .content {
-    background-color: #D62127;
+    background-color: $background-app-color;
   }
 
   h1 {
     margin: 0;
   }
+}
 
-  .main-logo {
-    margin-bottom: 30px;
+.main-logo {
+  margin-bottom: 30px;
 
-    img {
-      height: 128px;
-    }
+  img {
+    height: 128px;
+  }
+}
+
+li {
+  .doctor-name {
+    text-transform: capitalize;
+  }
+
+  .doctor-address {
+    text-transform: lowercase;
   }
 }
