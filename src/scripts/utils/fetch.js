@@ -12,15 +12,19 @@ function fetch(options) {
           var response = JSON.parse(xhr.responseText);
           return resolve(response);
         } catch(e) {
-          reject(e);
+          return reject(e);
         }
+      }
+
+      if(xhr.status !== 200) {
+        return reject();
       }
 
       resolve(xhr.responseText);
     };
 
-    xhr.onerror = function() {
-      reject();
+    xhr.onerror = function(e) {
+      reject(e);
     };
 
     xhr.open(options.method, options.url);
