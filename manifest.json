@@ -1,0 +1,25 @@
+{
+  "name": "Doko My GP",
+  "description": "Search a general practitioner in England by only one click!",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "geolocation"
+  ],
+  "icons": {
+    "512": "/icons/icon-512.png",
+    "256": "/icons/icon-256.png",
+    "128": "/icons/icon-128.png",
+    "90": "/icons/icon-90.png",
+    "64": "/icons/icon-64.png",
+    "60": "/icons/icon-60.png",
+    "48": "/icons/icon-48.png",
+    "32": "/icons/icon-32.png",
+    "16": "/icons/icon-16.png"
+  }
+}
