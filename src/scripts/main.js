@@ -1,4 +1,5 @@
 var React   = require('react');
-var HOME    = require('./components/home');
+var Home    = require('./components/home');
+var Search  = require('./components/search');
 
-React.render(<HOME />, document.getElementById('main'));
+React.render(<Search />, document.getElementById('main'));
