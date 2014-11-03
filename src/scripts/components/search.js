@@ -80,7 +80,7 @@ var Search = React.createClass({
       <section role="region">
         <header className="fixed">
           <menu type="toolbar">
-            <button data-icon="reload" onClick={this.refreshData}></button>
+            <button className="refresh-data" data-icon="reload" onClick={this.refreshData}></button>
           </menu>
           <h1>Doko My GP</h1>
         </header>

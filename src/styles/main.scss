@@ -30,6 +30,10 @@ section .home-page {
   }
 }
 
+button.refresh-data {
+  cursor: pointer;
+}
+
 li {
   .doctor-name {
     text-transform: capitalize;
