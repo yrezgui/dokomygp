@@ -11,6 +11,10 @@ var StatusMessage = React.createClass({
 
       case AppStatus.DONE:
         messageClass += 'hide';
+        break;      
+
+      case AppStatus.NO_RESULTS:
+        messageText = 'We didn\'t find any GPs in your area.';
         break;
 
       case AppStatus.LOADING:
