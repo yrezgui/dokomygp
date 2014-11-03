@@ -2,7 +2,11 @@ var React = require('react');
 
 var DoctorItem = React.createClass({
   callDoctor: function () {
-    return new window.MozActivity({
+    if(!window.MozActivity) {
+      return alert('Here is the phone number: ' + this.props.doctor.phone);
+    }
+
+    new window.MozActivity({
       name: 'dial',
       data: {
         number: this.props.doctor.phone
