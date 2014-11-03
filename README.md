@@ -34,3 +34,22 @@ python -m SimpleHTTPServer
 ```
 
 Don't forget to run it in the root folder of the project. Enjoy :smiley:
+
+
+## Launch the app
+
+### Firefox OS
+
+You need to install the [Firefox OS 2.0 Simulator](ftp://ftp.eu.mozilla.org/pub/labs/fxos-simulator/index.html) in Firefox. As soon as it's installed, Click **Add Hosted app** in the menu and enter ```http://localhost:8000/manifest.webapp``` if you launched the Python Web Server.
+
+### Google Chrome Packaged app
+Copy this url in your navigation bar:
+
+```
+chrome://extensions/
+```
+
+Enable the developer mode and add the folder of the project.
+
+### Atom Shell
+Just run Atom Shell from the root of your folder project.
