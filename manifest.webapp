@@ -1,17 +1,17 @@
 {
   "name": "Doko My GP",
   "description": "Search a general practitioner in England by only one tap!",
-  "launch_path": "./dist/index.html",
+  "launch_path": "/dokomygp/dist/index.html",
   "icons": {
-    "512": "./icons/icon-512.png",
-    "256": "./icons/icon-256.png",
-    "128": "./icons/icon-128.png",
-    "90": "./icons/icon-90.png",
-    "64": "./icons/icon-64.png",
-    "60": "./icons/icon-60.png",
-    "48": "./icons/icon-48.png",
-    "32": "./icons/icon-32.png",
-    "16": "./icons/icon-16.png"
+    "512": "/dokomygp/icons/icon-512.png",
+    "256": "/dokomygp/icons/icon-256.png",
+    "128": "/dokomygp/icons/icon-128.png",
+    "90": "/dokomygp/icons/icon-90.png",
+    "64": "/dokomygp/icons/icon-64.png",
+    "60": "/dokomygp/icons/icon-60.png",
+    "48": "/dokomygp/icons/icon-48.png",
+    "32": "/dokomygp/icons/icon-32.png",
+    "16": "/dokomygp/icons/icon-16.png"
   },
   "developer": {
     "name": "Yacine Rezgui",
