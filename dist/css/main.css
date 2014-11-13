@@ -1,0 +1,44 @@
+.hide {
+  display: none; }
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.text-center {
+  text-align: center; }
+
+.current-to-left {
+  animation: currentToLeft 0.4s forwards; }
+
+.left-to-current {
+  animation: leftToCurrent 0.4s forwards; }
+
+#main {
+  height: 100%; }
+
+section[role="region"] > header:first-child {
+  background-color: #D62127; }
+
+section .home-page {
+  color: #FFF; }
+  section .home-page > .content {
+    background-color: #D62127; }
+  section .home-page h1 {
+    margin: 0; }
+
+.main-logo {
+  margin-bottom: 30px; }
+  .main-logo img {
+    height: 128px; }
+
+button.refresh-data {
+  cursor: pointer; }
+
+li .doctor-name {
+  text-transform: capitalize; }
+li .doctor-address {
+  text-transform: lowercase; }
+
+/*# sourceMappingURL=main.css.map */
