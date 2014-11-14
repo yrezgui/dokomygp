@@ -8,6 +8,7 @@ I created it using:
 - [Import.io](https://import.io/) for the API data (scraped from the [NHS](http://www.nhs.uk/) website)
 - [Building Blocks](http://buildingfirefoxos.com/) for the GUI
 
+## [Demo](http://www.yrezgui.com/dokomygp/dist/index.html)
 
 ## Getting started
 Run these commands in your terminal in the directory of the cloned repository:
